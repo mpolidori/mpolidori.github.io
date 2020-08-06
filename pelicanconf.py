@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'America/Detroit'
 
 DEFAULT_LANG = 'en'
-THEME = 'clean-blog-custom'
+THEME = '../../clean-blog-custom'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
