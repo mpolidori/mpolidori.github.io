@@ -75,10 +75,10 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
-	git add .
-	git push
 	echo www.michaelpolidori.com > output/CNAME
 	echo __pychache__/ > output/.gitignore
+	git add .
+	git push
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
