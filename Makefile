@@ -76,7 +76,7 @@ publish:
 
 github: publish
 	echo michaelpolidori.com > output/CNAME
-	echo __pychache__/ > .gitignore
+	echo __pychache__/ > output/.gitignore
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
