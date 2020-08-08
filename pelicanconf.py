@@ -20,6 +20,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+LOAD_CONTENT_CACHE = False
+
 GITHUB_URL = 'http://github.com/mpolidori'
 
 ## Blogroll
