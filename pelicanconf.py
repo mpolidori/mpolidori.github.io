@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Michael Polidori'
 SITENAME = 'Michael Polidori'
-SITEURL = ''
+SITEURL = 'https://michaelpolidori.com'
 
 PATH = 'content'
 
@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 
 LOAD_CONTENT_CACHE = False
 
-GITHUB_URL = 'http://github.com/mpolidori'
+GITHUB_URL = 'https://github.com/mpolidori'
 
 ## Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
