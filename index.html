@@ -14,7 +14,8 @@
             align-items: center;
             flex-direction: column;
             font-family: 'Overpass', sans-serif;
-            background-color: #fff9f3;
+            /* background-color: #fff9f3; */
+            background: linear-gradient(to bottom, #fdeedd 0%, #fff9f3 100%);
         }
         .navbar {
             text-align: center;
@@ -22,18 +23,19 @@
             font-size: 18px;
             font-style: italic;
             font-weight: normal;
-            height: 100px;
+
         }
         .navbar a {
             display: block;
             padding: 8px;
             text-decoration: none;
-            color: rgb(40, 40, 40);
+            color: rgb(66, 66, 66);
+            height: 30px;
         }
         .navbar a:hover {
             font-weight: bolder;
             font-style: normal;
-            color: rgb(66, 66, 66);
+            color: rgb(40, 40, 40);
             font-size: 22px;
         }
         .name-header {
@@ -43,10 +45,12 @@
             margin-bottom: 20px;
             letter-spacing: 2px;
         }
+        .name-header .space:hover {
+            text-decoration: none;
+        }
         .name-header span:hover {
-            color: rgb(255, 190, 93);
+            color: rgb(255, 152, 111);
             font-weight: bold;
-            text-decoration: underline;
         }
         </style>
     </head>
@@ -59,7 +63,7 @@
             <span>A</span>
             <span>E</span>
             <span>L</span>
-            <span>&nbsp;</span>
+            <span class="space">&nbsp;</span>
             <span>P</span>
             <span>O</span>
             <span>L</span>
