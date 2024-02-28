@@ -1,48 +1,49 @@
 html {
-    box-sizing: border-box;
-    border: 30px solid #fdeedd;
+  box-sizing: border-box;
+  border: 30px solid #fdeedd;
 }
-body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Overpass', sans-serif;
-    background: linear-gradient(to bottom, #fdeedd 0%, #fff9f3 100%);
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Overpass", sans-serif;
+  background: linear-gradient(to bottom, #fdeedd 0%, #fff9f3 100%);
 }
 .navbar {
-    text-align: center;
-    list-style: none;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: normal;
+  text-align: center;
+  list-style: none;
+  font-size: min(3vw, 18px);
+  font-style: italic;
+  font-weight: normal;
 }
 .navbar a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    color: #424242;
-    height: 30px;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #424242;
+  height: 30px;
 }
 .navbar a:hover {
-    font-weight: bolder;
-    font-style: normal;
-    color: rgb(40, 40, 40);
-    font-size: 22px;
+  font-weight: bolder;
+  font-style: normal;
+  color: rgb(40, 40, 40);
+  font-size: min(3.5vw, 22px);
 }
 .name-header {
-    display: inline-block;
-    font-size: 36px;
-    font-weight: bolder;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+  display: inline-block;
+  font-size: min(4vw, 40px);
+  font-weight: bolder;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 .name-header .space:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 .name-header span:hover {
-    color: #ff986f;
-    font-weight: bold;
+  color: #ff986f;
+  font-weight: bold;
 }
